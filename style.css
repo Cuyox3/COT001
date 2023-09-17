@@ -6,6 +6,7 @@
 /* Header */
 .navbar {
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    background-color: #ffffff;
 }
 .header-container {
     padding: 7px 0;
@@ -53,3 +54,19 @@ main{
     
 }
 /* Main */
+
+
+/* Footer */
+.span-footer-title-c {
+    margin-left: 10px;
+}
+@media (max-width: 1250px) {
+    .span-footer-title-c {
+        font-size: small;
+    }
+}
+@media (max-width: 769px) {
+    
+}
+
+/* Footer */
