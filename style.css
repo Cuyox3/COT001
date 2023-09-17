@@ -1,0 +1,41 @@
+
+
+
+
+/* Header */
+.navbar {
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.header-container {
+    padding: 7px 0;
+}
+
+.title-a {
+    display: flex;
+    align-items: center;
+}
+
+.medium-title-a {
+    font-size: large;
+}
+
+.tiny-title-a {
+    font-size: medium;
+}
+
+@media (max-width: 1250px) {
+    .medium-title-a {
+        font-size: medium;
+    }
+
+    .tiny-title-a {
+        font-size: small;
+    }
+}
+
+@media (max-width: 424px) {
+    .medium-title-a {
+        display: none;
+    }
+}
+/* Header */
