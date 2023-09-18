@@ -72,6 +72,9 @@ main{
 .btn-platzi:hover {
     background-color: var(--dark-blue) !important;
 }
+.btn-outline-dark:hover {
+    background-color: var(--dark-blue) !important;
+}
 .card {
     height: 100%;
 }
@@ -111,11 +114,9 @@ main{
 
 }
 
-#footer {
-    background: linear-gradient(90deg, #1c3643, #273b47 25%, #1e5472);
-}
-#footer a {
-    color: white;
+.fda {
+    width: 100%;
+    margin-bottom: ;
 }
 
 @media (min-width: 767px){
