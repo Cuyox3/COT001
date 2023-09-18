@@ -5,6 +5,7 @@
     --white-blue: #A8DADC;
     --blue: #457B9D;
     --dark-blue: #1D3557;
+    --white-red:  #b63d47a8;
 }
 
 
@@ -139,3 +140,16 @@ main{
 }
 
 /* Footer */
+
+
+
+/*------------- Pestañas -----------------*/
+
+.col{
+    text-align: justify;
+    padding : 1rem;
+    padding-top: 2rem;
+    border-radius: .5rem;
+    
+}
+
