@@ -127,6 +127,13 @@ main{
     height: 150px;
     border-radius: 10%;
 }
+.img-aros {
+    padding: 0px !important;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.img-carousel-sized {
+    height: 800px !important;
+}
 
 @media (max-width: 320px) {
     .carousel-item {
