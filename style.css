@@ -46,8 +46,24 @@
         font-size: small;
     }
 }
-
 @media (max-width: 424px) {
+    .medium-title-a {
+        font-size: small;
+    }
+    .tiny-title-a {
+        font-size: smaller;
+    }
+}
+
+@media (max-width: 375px) {
+    .medium-title-a {
+        font-size: x-small;
+    }
+    .tiny-title-a {
+        font-size: xx-small;
+    }
+}
+@media (max-width: 326px) {
     .medium-title-a {
         display: none;
     }
