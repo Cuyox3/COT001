@@ -161,9 +161,6 @@ main{
       
 }
 @media (max-width: 576px) {
-    .carousel-item {
-        
-    }
     .fda {
         display: none;  
       }
