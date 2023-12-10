@@ -153,6 +153,9 @@ main{
 .img-carousel-sized {
     height: 800px !important;
 }
+.line-jump-idk {
+    padding: 20px 0;
+}
 
 @media (max-width: 320px) {
     .carousel-item {
