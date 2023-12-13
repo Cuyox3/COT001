@@ -46,7 +46,7 @@
         font-size: small;
     }
 }
-@media (max-width: 424px) {
+@media (max-width: 467px) {
     .medium-title-a {
         font-size: small;
     }
@@ -58,7 +58,7 @@
     }
 }
 
-@media (max-width: 375px) {
+@media (max-width: 411px) {
     .medium-title-a {
         font-size: x-small;
     }
@@ -66,7 +66,7 @@
         font-size: xx-small;
     }
 }
-@media (max-width: 326px) {
+@media (max-width: 359px) {
     .medium-title-a {
         display: none;
     }
