@@ -10,119 +10,97 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 </head>
 <body data-bs-spy="scroll" data-bs-target="#navbar" data-bs-offset="56">
-    <!-- Header -->
-    <header>
-      <nav id="header" class="navbar navbar-expand-lg navbar-light fixed-top">
-        <div class="container header-container">
-          <a class="navbar-brand title-a" href="../index.html">
-            <img src="../src/Logo.png" alt="Refaccionaria logo" style="height: 50px;">
-            <div class="medium-title-a" style="margin-left: 15px;">
-              EMPAQUES Y MAQUINADOS NACIONALES
-              <div class="tiny-title-a">
-                Diseños especiales de acuerdo a sus necesidades
-              </div>
-            </div>
-          </a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar"
-            aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbar">
-            <ul class="navbar-nav ms-auto mb-2 mb-lg-0 text-center">
-              <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="../pestañas/nosotros.html">Nosotros</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="../pestañas/productos.html">Productos</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="../pestañas/servicios.html">Servicios</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="../pestañas/materiales.html">Materiales</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link text-platzi" href="../pestañas/contacto.html">Contacto</a>
-              </li>
-            </ul>
+    <!-- Header -->\
+
+<header>
+  <nav id="header" class="navbar navbar-expand-lg navbar-light fixed-top">
+    <div class="container header-container">
+      <a class="navbar-brand title-a" href="../index.html">
+        <img src="../src/Logo.png" alt="Refaccionaria logo" style="height: 50px;">
+        <div class="medium-title-a" style="margin-left: 15px;">
+          EMPAQUES Y MAQUINADOS NACIONALES
+          <div class="tiny-title-a">
+            Diseños especiales de acuerdo a sus necesidades
           </div>
         </div>
-      </nav>
-    </header>
-    <!-- Header -->
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar"
+        aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbar">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0 text-center">
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="../pestañas/nosotros.html">Nosotros</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../pestañas/productos.html">Productos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../pestañas/servicios.html">Servicios</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../pestañas/materiales.html">Materiales</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-platzi" href="../pestañas/contacto.html">Contacto</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+</header>
 
-    <!-- Main -->
-    <main>
-      <section id="CONTACTANOS" class="pb-4 pt-4">
-        <div class="container">
+<!-- Header -->             
+
+<!-- Main -->
+<main>
+  <section id="CONTACTANOS" class="pb-4 pt-4">
+    <div class="container">
+      <div class="row">
+        <div class="col text-uppercase text-center">
+          <small>¿Tienes dudas o preguntas? </small>
+          <h2>CONTACTANOS</h2>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col text-center">
+          <h5>Diseños especiales de acuerdo a sus necesidades</h5>
+        </div>
+      </div>
+
+      <div class="row">
+      <form id="form" action="" class="form">
+        <div class="col col-md-10 offset-md-1 col-lg-8 offset-lg-2 mt-2">
           <div class="row">
-            <div class="col text-uppercase text-center">
-              <small>¿Tienes dudas o preguntas? </small>
-              <h2>CONTACTANOS</h2>
+          iv class="form-label col-12 col-md-6">
+              <input required type="text" name="name" class="form-control" placeholder="Nombre"  id="name" aria-label="Nombre">
+            </div>    
+            <div class="form-label col-12 col-md-6">
+              <input type="text" class="form-control" required placeholder="Asunto" aria-label="Asunto" name="asunto">
             </div>
           </div>
-          <div class="row">
-            <div class="col text-center">
-              <h5>Diseños especiales de acuerdo a sus necesidades</h5>
+
+          <div class="form-row">
+            <div class="form-label col" style="padding: 0;">
+              <textarea name="message" id="message" class="form-control form-control-lg" placeholder="¿Cómo te podemos ayudar?"></textarea>
+               <small class="form-text text-muted"> *Trata de ser lo más específico posible.</small>
             </div>
           </div>
-          <div class="row">
 
-  
-  <div class="col col-md-10 offset-md-1 col-lg-8 offset-lg-2 mt-2">
-    <div class="row">
-      <div class="form-label col-12 col-md-6">
-        <input type="text" class="form-control" placeholder="Nombre" aria-label="Nombre">
-      </div>
-      <div class="form-label col-12 col-md-6">
-        <input type="text" class="form-control" placeholder="Asunto" aria-label="Asunto">
-      </div>
-    </div>
-    <div class="form-row">
-      <div class="form-label col" style="padding: 0;">
-        <textarea name="text" class="form-control form-control-lg" placeholder="¿Cómo te podemos ayudar?"></textarea>
-        <small class="form-text text-muted">
-          *Trata de ser lo más específico posible.
-        </small>
-      </div>
-    </div>
-    <div class="form-row">
-      <div class="col" style="padding: 0;">
-        <button type="button" class="btn btn-platzi w-100" onclick="sendEmail()">Enviar</button>
-      </div>
-    </div>
-  </div>
-
-            <!-- 
-            <div class="col col-md-10 offset-md-1 col-lg-8 offset-lg-2 mt-2">
-              <div class="row">
-                <div class="form-label col-12 col-md-6">
-                  <input type="text" class="form-control" placeholder="Nombre" aria-label="Nombre">
-                </div>    
-                <div class="form-label col-12 col-md-6">
-                  <input type="text" class="form-control" placeholder="Asunto" aria-label="Asunto">
-                </div>
-              </div>
-              <div class="form-row">
-                <div class="form-label col" style="padding: 0;">
-                  <textarea name="text" class="form-control form-control-lg" placeholder="¿Cómo te podemos ayudar?"></textarea>
-                  <small class="form-text text-muted">
-                    *Trata de ser lo más específico posible.
-                  </small>
-                </div>
-              </div>
-              <div class="form-row">
-                <div class="col" style="padding: 0;">
-                  <button type="button" class="btn btn-platzi w-100">Enviar</button>
-                </div>
-              </div>
+          <div class="form-row">
+            <div class="col" style="padding: 0;">
+              <button type="submit" class="btn btn-platzi w-100">Enviar</button>
             </div>
-            -->
-
           </div>
         </div>
-      </section>
-    </main>
+          <a href="mailto:empaques.mn@gmail.com" id="trucazo"></a>
+      </form>
+      </div>
+    </div>
+  </section>
+</main>
     <!-- Main -->
 
     <!-- Footer -->
@@ -155,9 +133,21 @@
     </div>
     <!-- Footer -->
     
-
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
-  
+
+    <script>
+    const $form = document.querySelector('#form')
+    const $buttonMailto = document.querySelector('#trucazo')
+
+    $form.addEventListener('submit', handleSubmit)
+
+    function handleSubmit(event) {
+      event.preventDefault()
+      const form = new FormData(this)
+      $buttonMailto.setAttribute('href', `mailto:empaques.mn@gmail.com?subject=Nombre: ${form.get('name')} - Asunto: ${form.get('asunto')}&body=${form.get('message')}`)
+      $buttonMailto.click()
+    }
+  </script>
 
 </body>
 </html>
