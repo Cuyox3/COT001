@@ -56,56 +56,74 @@
   <!-- Header -->
 
   <!-- Main -->
-  <main>
-    <section id="CONTACTANOS" class="pb-4 pt-4">
-      <div class="container">
-        <div class="row">
-          <div class="col text-uppercase text-center">
-            <small>¿Tienes dudas o preguntas? </small>
-            <h2>CONTÁCTANOS</h2>
-          </div>
+  <main id="main" class="mt-5 mt-lg-0" style="margin-top: 82px !important;">
+    <div id="carousel" class="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-pause=“false”>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="../src/empaques-y-maquinados.jpg" class="d-block w-100 img-carousel-sized" alt="Hule">
         </div>
-
-        <div class="row">
-          <div class="col text-center">
-            <h4>Diseños especiales de acuerdo a sus necesidades</h5>
-          </div>
+        <div class="carousel-item">
+          <img src="../src/istockphoto-166251289-612x612.jpg" class="d-block w-100 img-carousel-sized" alt="O'Rings">
         </div>
-
-        <div class="row">
-          <form id="form" action="" class="form">
-            <div class="col col-md-10 offset-md-1 col-lg-8 offset-lg-2 mt-2">
+        <div class="carousel-item">
+          <img src="../src/shutterstock_1183231066-scaled.jpg" class="d-block w-100 img-carousel-sized" alt="Ventosa">
+        </div>
+        <div class="overlay" style="    display: flex; align-items: center; justify-content: center;">
+          <!-- Empiza Contactanos -->
+          <section id="CONTACTANOS" class="pb-4 pt-4">
+            <div class="container" style="    background-color: #00000045; border-radius: 3%;">
               <div class="row">
-                <div class="form-label col-12 col-md-6">
-                  <input required type="text" name="name" class="form-control" placeholder="Nombre" id="name"
-                    aria-label="Nombre">
-                </div>
-                <div class="form-label col-12 col-md-6">
-                  <input type="text" class="form-control" required placeholder="Asunto" aria-label="Asunto"
-                    name="asunto">
+                <div class="col text-uppercase text-center">
+                  <small>¿Tienes dudas o preguntas? </small>
+                  <h2>CONTÁCTANOS</h2>
                 </div>
               </div>
 
-              <div class="form-row">
-                <div class="form-label col" style="padding: 0;">
-                  <textarea name="message" id="message" class="form-control form-control-lg"
-                    placeholder="¿Cómo te podemos ayudar?"></textarea>
-                  <small class="form-text text-muted"> *Trata de ser lo más específico posible.</small>
+              <div class="row">
+                <div class="col text-center">
+                  <h4>Diseños especiales de acuerdo a sus necesidades</h5>
                 </div>
               </div>
 
-              <div class="form-row">
-                <div class="col" style="padding: 0;">
-                  <button type="submit" class="btn btn-platzi w-100">Enviar</button>
-                </div>
+              <div class="row">
+                <form id="form" action="" class="form">
+                  <div class="col col-md-10 col-lg-8  mt-2" style="width: 100%;">
+                    <div class="row">
+                      <div class="form-label col-12 col-md-6">
+                        <input required type="text" name="name" class="form-control" placeholder="Nombre" id="name"
+                          aria-label="Nombre">
+                      </div>
+                      <div class="form-label col-12 col-md-6">
+                        <input type="text" class="form-control" required placeholder="Asunto" aria-label="Asunto"
+                          name="asunto">
+                      </div>
+                    </div>
+
+                    <div class="form-row">
+                      <div class="form-label col" style="padding: 0;">
+                        <textarea name="message" id="message" class="form-control form-control-lg"
+                          placeholder="¿Cómo te podemos ayudar?"></textarea>
+                        <small class="form-text" style="--bs-text-opacity: 1; color: rgb(255 255 255 / 89%)!important;"> *Trata de ser lo más específico posible.</small>
+                      </div>
+                    </div>
+
+                    <div class="form-row">
+                      <div class="col" style="padding: 0;">
+                        <button type="submit" class="btn btn-platzi w-100">Enviar</button>
+                      </div>
+                    </div>
+                  </div>
+                  <a href="mailto:empaques.mn@gmail.com" id="trucazo"></a>
+                </form>
               </div>
             </div>
-            <a href="mailto:empaques.mn@gmail.com" id="trucazo"></a>
-          </form>
+          </section>
+          <!-- Termina contactanos -->
         </div>
       </div>
-    </section>
+    </div>
   </main>
+
   <!-- Main -->
 
   <!-- Footer -->
@@ -141,10 +159,10 @@
               height="24">
               <use xlink:href="#whats" />
             </svg></a></li>
-            <li class="ms-3"><a class="text-body-secondary"
-              href="https://www.facebook.com/profile.php?id=100063821841290"><svg class="bi" width="24" height="24">
-                <use xlink:href="#facebook" />
-              </svg></a></li>        
+        <li class="ms-3"><a class="text-body-secondary"
+            href="https://www.facebook.com/profile.php?id=100063821841290"><svg class="bi" width="24" height="24">
+              <use xlink:href="#facebook" />
+            </svg></a></li>
       </ul>
     </footer>
   </div>

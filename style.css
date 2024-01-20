@@ -61,7 +61,7 @@
     }
 }
 
-@media (max-width: 424px) {
+@media (max-width: 428px) {
     .medium-title-a {
         font-size: x-small;
     }
@@ -69,7 +69,7 @@
         font-size: xx-small;
     }
 }
-@media (max-width: 374px) {
+@media (max-width: 377px) {
     .medium-title-a {
         display: none;
     }
