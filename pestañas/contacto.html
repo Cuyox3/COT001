@@ -1,141 +1,178 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <script src="../script.js"></script>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Empaques y Maquinados Nacionales</title>
-    <link rel="stylesheet" href="../style.css">
-    <link rel="shortcut icon" href="../src/Logo.ico" type="image/x-icon">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <script src="../script.js"></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Empaques y Maquinados Nacionales</title>
+  <link rel="stylesheet" href="../style.css">
+  <link rel="shortcut icon" href="../src/Logo.ico" type="image/x-icon">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 </head>
+
 <body data-bs-spy="scroll" data-bs-target="#navbar" data-bs-offset="56">
-    <!-- Header -->\
-
-<header>
-  <nav id="header" class="navbar navbar-expand-lg navbar-light fixed-top">
-    <div class="container header-container">
-      <a class="navbar-brand title-a" href="../index.html">
-        <img src="../src/Logo.png" alt="Refaccionaria logo" style="height: 50px;">
-        <div class="medium-title-a" style="margin-left: 15px;">
-          EMPAQUES Y MAQUINADOS NACIONALES
-          <div class="tiny-title-a">
-            Diseños especiales de acuerdo a sus necesidades
+  <!-- Header -->
+  <header>
+    <nav id="header" class="navbar navbar-expand-lg navbar-light fixed-top">
+      <div class="container header-container">
+        <a class="navbar-brand title-a" href="../index.html">
+          <img src="../src/Logo.png" alt="Refaccionaria logo" style="height: 50px;">
+          <div class="medium-title-a" style="margin-left: 15px;">
+            EMPAQUES Y MAQUINADOS NACIONALES
+            <div class="tiny-title-a">
+              Diseños especiales de acuerdo a sus necesidades
+            </div>
           </div>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar"
+          aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbar">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0 text-center">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="../pestañas/nosotros.html">Nosotros</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../pestañas/productos.html">Productos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../pestañas/servicios.html">Servicios</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../pestañas/materiales.html">Materiales</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-platzi" href="../pestañas/contacto.html">Contacto</a>
+            </li>
+          </ul>
         </div>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Header -->
+
+  <!-- Main -->
+  <main id="main" class="mt-5 mt-lg-0" style="margin-top: 82px !important;">
+    <div id="carousel" class="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-pause=“false”>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="../src/empaques-y-maquinados.jpg" class="d-block w-100 img-carousel-sized" alt="Hule">
+        </div>
+        <div class="carousel-item">
+          <img src="../src/istockphoto-166251289-612x612.jpg" class="d-block w-100 img-carousel-sized" alt="O'Rings">
+        </div>
+        <div class="carousel-item">
+          <img src="../src/shutterstock_1183231066-scaled.jpg" class="d-block w-100 img-carousel-sized" alt="Ventosa">
+        </div>
+        <div class="overlay" style="    display: flex; align-items: center; justify-content: center;">
+          <!-- Empiza Contactanos -->
+          <section id="CONTACTANOS" class="pb-4 pt-4">
+            <div class="container" style="    background-color: #00000045; border-radius: 3%;">
+              <div class="row">
+                <div class="col text-uppercase text-center">
+                  <small>¿Tienes dudas o preguntas? </small>
+                  <h2>CONTÁCTANOS</h2>
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="col text-center">
+                  <h4>Diseños especiales de acuerdo a sus necesidades</h5>
+                </div>
+              </div>
+
+              <div class="row">
+                <form id="form" action="" class="form">
+                  <div class="col col-md-10 col-lg-8  mt-2" style="width: 100%;">
+                    <div class="row">
+                      <div class="form-label col-12 col-md-6">
+                        <input required type="text" name="name" class="form-control" placeholder="Nombre" id="name"
+                          aria-label="Nombre">
+                      </div>
+                      <div class="form-label col-12 col-md-6">
+                        <input type="text" class="form-control" required placeholder="Asunto" aria-label="Asunto"
+                          name="asunto">
+                      </div>
+                    </div>
+
+                    <div class="form-row">
+                      <div class="form-label col" style="padding: 0;">
+                        <textarea name="message" id="message" class="form-control form-control-lg"
+                          placeholder="¿Cómo te podemos ayudar?"></textarea>
+                        <small class="form-text" style="--bs-text-opacity: 1; color: rgb(255 255 255 / 89%)!important;"> *Trata de ser lo más específico posible.</small>
+                      </div>
+                    </div>
+
+                    <div class="form-row">
+                      <div class="col" style="padding: 0;">
+                        <button type="submit" class="btn btn-platzi w-100">Enviar</button>
+                      </div>
+                    </div>
+                  </div>
+                  <a href="mailto:empaques.mn@gmail.com" id="trucazo"></a>
+                </form>
+              </div>
+            </div>
+          </section>
+          <!-- Termina contactanos -->
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <!-- Main -->
+
+  <!-- Footer -->
+  <svg>
+    <symbol id="whats" viewBox="0 0 16 16">
+      <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-whatsapp" width="16" height="16"
+        viewBox="0 0 24 24" stroke-width="2.2" stroke="#000000" fill="none" stroke-linecap="round"
+        stroke-linejoin="round">
+        <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+        <path d="M3 21l1.65 -3.8a9 9 0 1 1 3.4 2.9l-5.05 .9" />
+        <path d="M9 10a.5 .5 0 0 0 1 0v-1a.5 .5 0 0 0 -1 0v1a5 5 0 0 0 5 5h1a.5 .5 0 0 0 0 -1h-1a.5 .5 0 0 0 0 1" />
+      </svg>
+    </symbol>
+    <symbol id="facebook" viewBox="0 0 16 16">
+      <path
+        d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z" />
+    </symbol>
+  </svg>
+  <div class="b-example-divider"></div>
+  <div class="container">
+    <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+      <div class="col-12 col-md-4 d-flex align-items-center">
+        <img src="../src/Logo.png" class="bi" width="30" height="24">
+        <span class="mb-md-0 text-body-secondary span-footer-title-c">&copy; Empaques y Maquinados Nacionales y/o Ivonne
+          Josafat
+          Serafin Chamorro </span>
+      </div>
+      <a href="https://cuyox3.com/" class="col-12 col-md-4 mt-3 mb-3 text-center text-body-secondary"> Design by: Cuyox3
       </a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar"
-        aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbar">
-        <ul class="navbar-nav ms-auto mb-2 mb-lg-0 text-center">
-          <li class="nav-item">
-            <a class="nav-link" aria-current="page" href="../pestañas/nosotros.html">Nosotros</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="../pestañas/productos.html">Productos</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="../pestañas/servicios.html">Servicios</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="../pestañas/materiales.html">Materiales</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link text-platzi" href="../pestañas/contacto.html">Contacto</a>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </nav>
-</header>
+      <ul class="nav col-12 col-md-4 justify-content-end list-unstyled d-flex">
+        <li class="ms-3"><a class="text-body-secondary"
+            href="https://wa.me/+525537356229?text=Hola,%20puedes%20ayudarme%20con:%20"><svg class="bi" width="24"
+              height="24">
+              <use xlink:href="#whats" />
+            </svg></a></li>
+        <li class="ms-3"><a class="text-body-secondary"
+            href="https://www.facebook.com/profile.php?id=100063821841290"><svg class="bi" width="24" height="24">
+              <use xlink:href="#facebook" />
+            </svg></a></li>
+      </ul>
+    </footer>
+  </div>
+  <!-- Footer -->
 
-<!-- Header -->             
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
 
-<!-- Main -->
-<main>
-  <section id="CONTACTANOS" class="pb-4 pt-4">
-    <div class="container">
-      <div class="row">
-        <div class="col text-uppercase text-center">
-          <small>¿Tienes dudas o preguntas? </small>
-          <h2>CONTÁCTANOS</h2>
-        </div>
-      </div>
-
-      <div class="row">
-        <div class="col text-center">
-          <h4>Diseños especiales de acuerdo a sus necesidades</h5>
-        </div>
-      </div>
-
-      <div class="row">
-      <form id="form" action="" class="form">
-        <div class="col col-md-10 offset-md-1 col-lg-8 offset-lg-2 mt-2">
-          <div class="row">
-          <div class="form-label col-12 col-md-6">
-              <input required type="text" name="name" class="form-control" placeholder="Nombre"  id="name" aria-label="Nombre">
-            </div>    
-            <div class="form-label col-12 col-md-6">
-              <input type="text" class="form-control" required placeholder="Asunto" aria-label="Asunto" name="asunto">
-            </div>
-          </div>
-
-          <div class="form-row">
-            <div class="form-label col" style="padding: 0;">
-              <textarea name="message" id="message" class="form-control form-control-lg" placeholder="¿Cómo te podemos ayudar?"></textarea>
-               <small class="form-text text-muted"> *Trata de ser lo más específico posible.</small>
-            </div>
-          </div>
-
-          <div class="form-row">
-            <div class="col" style="padding: 0;">
-              <button type="submit" class="btn btn-platzi w-100">Enviar</button>
-            </div>
-          </div>
-        </div>
-          <a href="mailto:empaques.mn@gmail.com" id="trucazo"></a>
-      </form>
-      </div>
-    </div>
-  </section>
-</main>
-    <!-- Main -->
-
-    <!-- Footer -->
-    <svg>
-      <symbol id="whats" viewBox="0 0 16 16">
-        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-whatsapp" width="16" height="16"
-            viewBox="0 0 24 24" stroke-width="2.2" stroke="#000000" fill="none" stroke-linecap="round"
-            stroke-linejoin="round">
-            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-            <path d="M3 21l1.65 -3.8a9 9 0 1 1 3.4 2.9l-5.05 .9" />
-            <path d="M9 10a.5 .5 0 0 0 1 0v-1a.5 .5 0 0 0 -1 0v1a5 5 0 0 0 5 5h1a.5 .5 0 0 0 0 -1h-1a.5 .5 0 0 0 0 1" />
-        </svg>
-      </symbol>
-    </svg>
-    <div class="b-example-divider"></div>
-    <div class="container">
-      <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
-        <div class="col-12 col-md-4 d-flex align-items-center">
-          <img src="../src/Logo.png" class="bi" width="30" height="24">
-          <span class="mb-md-0 text-body-secondary span-footer-title-c">&copy; Empaques y Maquinados Nacionales y/o Ivonne Josafat
-            Serafin Chamorro </span>
-        </div>
-        <a href="https://cuyox3.com/" class="col-12 col-md-4 mt-3 mb-3 text-center text-body-secondary"> Design by: Cuyox3 </a>
-        <ul class="nav col-12 col-md-4 justify-content-end list-unstyled d-flex">
-          <li class="ms-3"><a class="text-body-secondary" href="https://wa.me/+525537356229?text=Hola,%20puedes%20ayudarme%20con:%20"><svg class="bi" width="24" height="24">
-                <use xlink:href="#whats" />
-              </svg></a></li>
-        </ul>
-      </footer>
-    </div>
-    <!-- Footer -->
-    
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
-
-    <script>
+  <script>
     const $form = document.querySelector('#form')
     const $buttonMailto = document.querySelector('#trucazo')
 
@@ -150,4 +187,5 @@
   </script>
 
 </body>
+
 </html>

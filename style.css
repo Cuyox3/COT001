@@ -47,18 +47,21 @@
     }
 }
 @media (max-width: 467px) {
+    .text-center-phone {
+        text-align: center;
+    }
+}
+
+@media (max-width: 767px) {
     .medium-title-a {
         font-size: small;
     }
     .tiny-title-a {
         font-size: smaller;
     }
-    .text-center-phone {
-        text-align: center;
-    }
 }
 
-@media (max-width: 411px) {
+@media (max-width: 428px) {
     .medium-title-a {
         font-size: x-small;
     }
@@ -66,7 +69,7 @@
         font-size: xx-small;
     }
 }
-@media (max-width: 359px) {
+@media (max-width: 377px) {
     .medium-title-a {
         display: none;
     }
